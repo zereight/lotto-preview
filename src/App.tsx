@@ -1,9 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import guideImage from "./guide_img.png";
+import useGA from "./useGA";
 
 function App() {
   const [numbers, setNumbers] = useState("");
+
+  useGA();
 
   const handleClickButton = () => {
     if (numbers.length === 0) {
