@@ -66,5 +66,6 @@
 
 .guide_image {
   object-fit: cover;
-  width: 80%;
+  width: 60%;
+  max-height: 1500px;
 }
