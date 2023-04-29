@@ -34,10 +34,6 @@ function App() {
 
       <div className="body">
         <label className="label">
-          {"선택번호/복권번호 입력하기"}
-
-          <div style={{ height: 30 }} />
-
           <input
             type="number"
             className="input"
@@ -54,7 +50,7 @@ function App() {
         </button>
       </div>
 
-      <div style={{ height: 100 }} />
+      <div style={{ height: 50 }} />
 
       <div className="guide_container">
         <button
@@ -62,7 +58,7 @@ function App() {
           type="button"
           onClick={handleClickNavigate동행복권}
         >
-          {"동행복권 바로가기"}
+          {"동행복권에서 로또 번호 가져오기"}
         </button>
 
         <div style={{ height: 30 }} />

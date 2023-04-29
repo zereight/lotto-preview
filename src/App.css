@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   background-color: #f5f5f5;
 }
@@ -26,6 +26,13 @@
 
 .input {
   width: 400px;
+  height: 50px;
+  border: 1px solid #0389fe;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 10px;
 }
 
 .input[type="number"]::-webkit-outer-spin-button,
@@ -37,12 +44,13 @@
 .button {
   width: 400px;
   height: 50px;
-  background-color: #f2ff00;
-  border: 1px solid #000;
+  background-color: #0389fe;
+  border: 1px solid #fff;
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  color: #fff;
 }
 
 .guide_container {
@@ -55,8 +63,8 @@
 }
 
 .go_dhlottery {
-  background-color: #ffd015;
-  border: 1px solid #000;
+  background-color: #6ef58b;
+  border: 1px solid #6ef58b;
   border-radius: 5px;
   font-size: 15px;
   font-weight: bold;
